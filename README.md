@@ -1,5 +1,10 @@
 # VanillaPlus-Actions
 
+**Installation**
+1. Download the latest version (section "Assets", link "Source code (zip)")
+1. Open the contents of the downloaded archive
+1. Copy the folder "V+Actions" to the "path to the installed game\Interface\AddOns"
+
 **Launch:**
 - addon replaces the "Help Request" button (to open "WOW Customer Support" there is a button "Help Request"" in the addon window)
 
