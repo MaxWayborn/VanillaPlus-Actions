@@ -5,8 +5,8 @@ Launch:
 
 Functions:
 - shows the current online server Vanilla Plus
-- allows you to register on the battlefields by pressing the button
-- allows you to reset instances by pressing the button
+- allows you to register on the Battlegrounds by pressing the button
+- allows you to reset Instances by pressing the button
 
 More actions will be added later.
 
