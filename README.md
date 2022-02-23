@@ -8,4 +8,6 @@ Functions:
 - allows you to register on the battlefields by pressing the button
 - allows you to reset instances by pressing the button
 
+More actions will be added later.
+
 ![Image-1](https://github.com/Johnny-Gat/VanillaPlus-Actions/raw/dev/Image-1.png)
