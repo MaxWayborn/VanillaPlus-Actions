@@ -1,7 +1,7 @@
 # VanillaPlus-Actions
 
 **Installation**
-1. Download the latest version (section "Assets", link "Source code (zip)")
+1. [Download the latest version](https://github.com/Johnny-Gat/VanillaPlus-Actions/releases/latest) (section "Assets", link "Source code (zip)")
 1. Open the contents of the downloaded archive
 1. Copy the folder "V+Actions" to the "path to the installed game\Interface\AddOns"
 
