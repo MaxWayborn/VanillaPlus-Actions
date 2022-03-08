@@ -1,0 +1,5 @@
+## Interface: 11200
+## Title: Vanilla Plus - Actions v0.2
+## Notes: Addon with a graphical interface for various actions for the Vanilla Plus server.
+
+Code.lua
