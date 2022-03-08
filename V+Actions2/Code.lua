@@ -12,7 +12,7 @@ VPFrmMain.Visible = 1
 CreateFrame('Frame', 'VPFrmTitle', VPFrmMain)
 VPFrmTitle:SetBackdrop({
 	bgFile = 'Interface\\DialogFrame\\UI-DialogBox-Background', 
-    edgeFile = 'Interface\\AddOns\\V+Actions1\\MyBorder2',
+    edgeFile = 'Interface\\AddOns\\V+Actions2\\MyBorder2',
     edgeSize = 16, insets = {left = 5, right = 5, top = 5, bottom = 5}
 })
 VPFrmTitle:SetPoint('TOP', VPFrmMain)
@@ -27,9 +27,9 @@ CreateFrame('Button', 'VPBtnView', VPFrmMain)
 VPBtnView:SetPoint('TOPRIGHT', VPFrmMain, 'TOPRIGHT')
 VPBtnView:SetWidth(32)
 VPBtnView:SetHeight(32)
-VPBtnView:SetNormalTexture('Interface\\AddOns\\V+Actions1\\MenuBtn-Addon-Up')
-VPBtnView:SetPushedTexture('Interface\\AddOns\\V+Actions1\\MenuBtn-Addon-Down')
-VPBtnView:SetHighlightTexture('Interface\\AddOns\\V+Actions1\\MenuBtn-All-Highlight', 'add')
+VPBtnView:SetNormalTexture('Interface\\AddOns\\V+Actions2\\MenuBtn-Addon-Up')
+VPBtnView:SetPushedTexture('Interface\\AddOns\\V+Actions2\\MenuBtn-Addon-Down')
+VPBtnView:SetHighlightTexture('Interface\\AddOns\\V+Actions2\\MenuBtn-All-Highlight', 'add')
 VPBtnView:SetScript("OnClick", function()
 	if VPFrmMain.Visible == 1 then
 		VPFrmMain.Visible = 0
@@ -58,25 +58,25 @@ CreateFrame('Button', 'VPBtnTune', VPFrmMain)
 VPBtnTune:SetPoint('RIGHT', VPBtnView, 'LEFT')
 VPBtnTune:SetWidth(32)
 VPBtnTune:SetHeight(32)
-VPBtnTune:SetNormalTexture('Interface\\AddOns\\V+Actions1\\MenuBtn-Param-Up')
-VPBtnTune:SetPushedTexture('Interface\\AddOns\\V+Actions1\\MenuBtn-Param-Down')
-VPBtnTune:SetHighlightTexture('Interface\\AddOns\\V+Actions1\\MenuBtn-All-Highlight', 'add')
+VPBtnTune:SetNormalTexture('Interface\\AddOns\\V+Actions2\\MenuBtn-Param-Up')
+VPBtnTune:SetPushedTexture('Interface\\AddOns\\V+Actions2\\MenuBtn-Param-Down')
+VPBtnTune:SetHighlightTexture('Interface\\AddOns\\V+Actions2\\MenuBtn-All-Highlight', 'add')
 
 CreateFrame('Button', 'VPBtnPrev', VPFrmMain)
 VPBtnPrev:SetPoint('TOPLEFT', VPFrmMain, 'TOPLEFT')
 VPBtnPrev:SetWidth(32)
 VPBtnPrev:SetHeight(32)
-VPBtnPrev:SetNormalTexture('Interface\\AddOns\\V+Actions1\\MenuBtn-Prev-Up')
-VPBtnPrev:SetPushedTexture('Interface\\AddOns\\V+Actions1\\MenuBtn-Prev-Down')
-VPBtnPrev:SetHighlightTexture('Interface\\AddOns\\V+Actions1\\MenuBtn-All-Highlight', 'add')
+VPBtnPrev:SetNormalTexture('Interface\\AddOns\\V+Actions2\\MenuBtn-Prev-Up')
+VPBtnPrev:SetPushedTexture('Interface\\AddOns\\V+Actions2\\MenuBtn-Prev-Down')
+VPBtnPrev:SetHighlightTexture('Interface\\AddOns\\V+Actions2\\MenuBtn-All-Highlight', 'add')
 
 CreateFrame('Button', 'VPBtnNext', VPFrmMain)
 VPBtnNext:SetPoint('LEFT', VPBtnPrev, 'RIGHT')
 VPBtnNext:SetWidth(32)
 VPBtnNext:SetHeight(32)
-VPBtnNext:SetNormalTexture('Interface\\AddOns\\V+Actions1\\MenuBtn-Next-Up')
-VPBtnNext:SetPushedTexture('Interface\\AddOns\\V+Actions1\\MenuBtn-Next-Down')
-VPBtnNext:SetHighlightTexture('Interface\\AddOns\\V+Actions1\\MenuBtn-All-Highlight', 'add')
+VPBtnNext:SetNormalTexture('Interface\\AddOns\\V+Actions2\\MenuBtn-Next-Up')
+VPBtnNext:SetPushedTexture('Interface\\AddOns\\V+Actions2\\MenuBtn-Next-Down')
+VPBtnNext:SetHighlightTexture('Interface\\AddOns\\V+Actions2\\MenuBtn-All-Highlight', 'add')
 
 CreateFrame('Frame', 'VPFrmAction', VPFrmMain)
 VPFrmAction:SetBackdrop({
